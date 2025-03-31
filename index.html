@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuzzy Friends Ferret Rescue - Adopt a Ferret Today!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-paw"></i>
+                <h1>Fuzzy Friends</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#available">Available Ferrets</a></li>
+                    <li><a href="#process">Adoption Process</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h2>Give a Ferret a Forever Home</h2>
+            <p>We rescue, rehabilitate, and rehome ferrets in need. Our mission is to match these playful companions with loving families.</p>
+            <a href="#available" class="btn">Meet Our Ferrets</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Our Rescue</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who We Are</h3>
+                    <p>Fuzzy Friends Ferret Rescue is a nonprofit organization dedicated to saving ferrets in need. Founded in 2010, we've helped over 1,000 ferrets find their forever homes.</p>
+                    <p>Our team of experienced volunteers provides medical care, socialization, and love to each ferret that comes through our doors. We believe every ferret deserves a chance at a happy life.</p>
+                    <p>All our ferrets are spayed/neutered, microchipped, and up-to-date on vaccinations before adoption. We also provide new owners with education and support to ensure a smooth transition.</p>
+                    <a href="#process" class="btn">Learn About Adoption</a>
+                </div>
+                <div class="about-image">
+                    <img src="ferret images/71.jpg" alt="Group of ferrets">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Ferrets Section -->
+    <section id="available" class="available">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ferrets Available for Adoption</h2>
+            </div>
+            <div class="ferrets-grid">
+                <!-- Ferret 1 -->
+                <div class="ferret-card">
+                    <div class="ferret-image">
+                        <img src="ferret images/2.jpg" alt="Ferret Bandit">
+                    </div>
+                    <div class="ferret-info">
+                        <h3>Bandit</h3>
+                        <p>Sweet and playful 2-year-old male who loves to explore and cuddle.</p>
+                        <ul>
+                            <li><i class="fas fa-birthday-cake"></i> 2 years old</li>
+                            <li><i class="fas fa-venus-mars"></i> Male (Neutered)</li>
+                            <li><i class="fas fa-syringe"></i> Vaccinated</li>
+                            <li><i class="fas fa-home"></i> Needs experienced owner</li>
+                        </ul>
+                        <a href="#" class="btn" onclick="showModal('Bandit')">Adopt Me</a>
+                    </div>
+                </div>
+                
+                <!-- Ferret 2 -->
+                <div class="ferret-card">
+                    <div class="ferret-image">
+                        <img src="ferret images/1.jpg" alt="Ferret Sable">
+                    </div>
+                    <div class="ferret-info">
+                        <h3>Sable</h3>
+                        <p>Energetic 1-year-old female with a mischievous personality.</p>
+                        <ul>
+                            <li><i class="fas fa-birthday-cake"></i> 1 year old</li>
+                            <li><i class="fas fa-venus-mars"></i> Female (Spayed)</li>
+                            <li><i class="fas fa-syringe"></i> Vaccinated</li>
+                            <li><i class="fas fa-home"></i> Would love a ferret friend</li>
+                        </ul>
+                        <a href="#" class="btn" onclick="showModal('Sable')">Adopt Me</a>
+                    </div>
+                </div>
+                
+                <!-- Ferret 3 -->
+                <div class="ferret-card">
+                    <div class="ferret-image">
+                        <img src="ferret images/3.jpg" alt="Ferret Milo">
+                    </div>
+                    <div class="ferret-info">
+                        <h3>Milo</h3>
+                        <p>Gentle senior ferret (6 years) looking for a quiet retirement home.</p>
+                        <ul>
+                            <li><i class="fas fa-birthday-cake"></i> 6 years old</li>
+                            <li><i class="fas fa-venus-mars"></i> Male (Neutered)</li>
+                            <li><i class="fas fa-syringe"></i> Vaccinated</li>
+                            <li><i class="fas fa-home"></i> Prefers calm environment</li>
+                        </ul>
+                        <a href="#" class="btn" onclick="showModal('Milo')">Adopt Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adoption Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Adoption Process</h2>
+            </div>
+            <div class="process-steps">
+                <!-- Step 1 -->
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Online Adoption Application</h3>
+                    <p>We'll start by sending you a questionnaire portal to get to know you and understand your lifestyle, so we can find the perfect ferret match for you.
+                    </p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3> Adoption Contract</h3>
+                    <p>Once you've select the one that's perfect for you, you'll sign an adoption contract to make you the legal owner. This contract outlines the responsibilities and well-being of the ferret for both parties.</p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3> Reservation and Delivery</h3>
+                    <p>After signing the adoption contract, you'll make the reservation for the ferret's delivery. We'll work with you to schedule a convenient time and method for the ferret to be delivered to your home, whether that's through a direct flight, halfway drive, or delivery.</p>
+                </div>
+                
+                <!-- Step 4 -->
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3> Pre-Delivery Preparation</h3>
+                    <p>We'll provide you with a starter kit with essential supplies to help you get started with your new ferret, such as food, litter, and toys. Make sure your home is ferret-proofed and ready for the new addition.</p>
+                </div>
+                
+                <!-- Step 5 -->
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3> Meet Your New Ferret!</h3>
+                    <p>Finally, you'll get to meet your new furry friend! We'll ensure a smooth transition and provide guidance on caring for your ferret. Enjoy your new companion!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Happy Families</h2>
+            </div>
+            <div class="testimonials-wrapper">
+                <div class="testimonial-slider">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Adopting from Fuzzy Friends was such a great experience. They were thorough in making sure we were prepared for ferret ownership and matched us perfectly with our little Loki. A year later and he's the joy of our household!</p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah J.">
+                            <div class="author-info">
+                                <h4>Sarah J.</h4>
+                                <p>Adopted 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>The adoption counselors were incredibly knowledgeable and patient with all our questions. They helped us understand what to expect and how to properly care for ferrets. We ended up adopting two - they're inseparable!</p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael T.">
+                            <div class="author-info">
+                                <h4>Michael T.</h4>
+                                <p>Adopted 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>After fostering several ferrets through Fuzzy Friends, we became "foster fails" with our senior girl, Missy. The support didn't stop at adoption - they've been there for all our questions as first-time ferret owners.</p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jennifer L.">
+                            <div class="author-info">
+                                <h4>Jennifer L.</h4>
+                                <p>Adopted 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="accordion">
+                <!-- Question 1 -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>What's the average lifespan of a ferret?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Domestic ferrets typically live 6-10 years. Proper diet, veterinary care, and living conditions can help maximize their lifespan. Our senior ferrets (5+ years) often still have several good years left and make wonderful companions.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Question 2 -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Are ferrets good with children?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Ferrets can do well with older, gentle children (8+ years) who understand how to handle them properly. They're not recommended for homes with very young children as ferrets can be fragile and may nip if frightened. We can assess your family situation during the application process.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Question 3 -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>How much time do ferrets require daily?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Ferrets need a minimum of 4 hours of supervised playtime outside their cage each day. They thrive on interaction and mental stimulation. Many adopters choose to have two ferrets as they keep each other company, though this doubles the cleaning responsibilities.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Question 4 -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>What supplies do I need before adopting?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Essential supplies include:
+                                <ul>
+                                    <li>A multi-level ferret cage (minimum 24" x 24" x 18")</li>
+                                    <li>Quality ferret food (we'll provide recommendations)</li>
+                                    <li>Litter boxes and ferret-safe litter</li>
+                                    <li>Sleeping sacks/hammocks</li>
+                                    <li>Food and water dishes</li>
+                                    <li>Toys (no rubber or foam that can be ingested)</li>
+                                </ul>
+                            We provide a complete checklist to approved adopters.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Question 5 -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Can I adopt if I have other pets?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>It depends on the pets. Ferrets can sometimes coexist with cats and calm dogs, but should never be left unsupervised with them. They should never be housed near birds, rodents, or reptiles - their natural prey instincts may emerge. We evaluate each situation individually during the adoption process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Welcome a Ferret Into Your Life?</h2>
+            <p>Whether you're ready to adopt or just want to learn more about these amazing animals, we're here to help every step of the way.</p>
+            <div class="cta-buttons">
+                <a href="#available" class="btn">View Available Ferrets</a>
+                <a href="#" class="btn" onclick="showApplicationModal()">Start Adoption Application</a>
+                <a href="#" class="btn">Volunteer Opportunities</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Fuzzy Friends Ferret Rescue</h3>
+                    <p>Dedicated to rescuing and rehoming ferrets since 2010. We operate throughout the Pacific Northwest with fosters and volunteers across the region.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#available">Available Ferrets</a></li>
+                        <li><a href="#process">Adoption Process</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Foster Program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Fuzzy Lane, Portland, OR 97201</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> adopt@fuzzyfriends.org</p>
+                    <p><i class="fas fa-clock"></i> Open by appointment only</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to hear about new arrivals, events, and ferret care tips!</p>
+                    <form>
+                        <input type="email" placeholder="Your email" style="width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                        <button type="submit" class="btn" style="width: 100%;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Fuzzy Friends Ferret Rescue. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Adoption Modal -->
+    <div id="adoptionModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p>Thank you for your interest in adopting! Please fill out the form below to proceed.</p>
+            <form id="adoptionForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Why do you want to adopt this ferret?</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+        
+</body>
+</html>
